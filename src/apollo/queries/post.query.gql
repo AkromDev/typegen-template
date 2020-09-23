@@ -1,0 +1,5 @@
+query post($id: ID!) {
+  post(id: $id) {
+   ...PostFields
+  }
+}

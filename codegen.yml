@@ -1,0 +1,12 @@
+schema: http://167.71.146.35:4000/
+overwrite: true
+generates:
+  src/apollo/generated.ts:
+    config:
+      withHooks: true
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo
+documents:
+  - src/**/*.gql

@@ -1,0 +1,6 @@
+fragment PostFields on Post{
+    id
+    published
+    title
+    content
+}
